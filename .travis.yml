@@ -8,10 +8,10 @@ before_install:
 script:
   - docker run apheliont:ci-test npm run test -- --coverage
 
-# deploy:
-#   provider: heroku
-#   app: apheliont-ci-test
-#   api_key:
-#     secure: "$api_key"
-#   on:
-#     branch: master
+deploy:
+  provider: heroku
+  app: apheliont-ci-test
+  api_key:
+    secure: "$api_key"
+  on:
+    branch: master
