@@ -13,3 +13,5 @@ deploy:
   app: apheliont-ci-test
   api_key:
     secure: "$api_key"
+  on:
+    branch: master
