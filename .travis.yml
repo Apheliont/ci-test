@@ -12,4 +12,4 @@ deploy:
   provider: heroku
   app: apheliont-ci-test
   api_key:
-    secure: "3f9b8af2-c82b-468c-a9eb-ea8be2aac2ae"
+    secure: 3f9b8af2-c82b-468c-a9eb-ea8be2aac2ae
